@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.CSS">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>document</title>
+</head>
+<body>
+    <header class="w-full h-15 bg-slate-400/60 fixed z-50  flex justify-around items-center pb-10 mb-6">
+        <div class="add-edit grid grid-cols-3 gap-3" style="margin-top: 10;">    
+            <input type="text" id="inputwatch"style="text-align: center;"  placeholder="اخل اسم المنتج" class="bg-sky-100 w-60 h-10">
+            <button type="button" id="addBtn" class="btn w-24 h-8 bg-slate-300 text-xl" disabled>ADD</button>
+            <p id="count">عدد المننجات 6</p>
+        </div>
+        <div class="search">
+            <input id="search" type="search" style="text-align: center;"  placeholder="search product">
+            <button type="button" id="searchbtn" class="btn w-15 h-7  bg-slate-400 text-xl" style="text-align: center;" disabled>Search</button>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div class=" mt-8 " style="text-align: center;">
+        <div id="content" class="grid grid-cols-1 md:grid-cols-3 gap-3 "></div>
+    </div>
+
+
+
+    <script src="script/javascript.js"></script>
+</body>
+</html>
